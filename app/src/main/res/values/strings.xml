@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Implicit_intents</string>
-    <string name="text_share">\Escribe tu mensaje aqui</string>
+    <string name="text_share">Escribe tu mensaje aqui</string>
     <string name="button_share">Share This Text</string>
+    <string name="camera">Cámara</string>
+    <string name="galeria">Galería</string>
+
+
 </resources>
