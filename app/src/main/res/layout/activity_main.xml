@@ -17,34 +17,47 @@
             android:id="@+id/text_share"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Escribe tu mensaje aqui" />
+            android:text="@string/text_share"/>
 
         <Button
+            android:onClick="shareText"
             android:id="@+id/button_share"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            android:text="Share This Text" />
+            android:text="@string/button_share" />
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/relative1"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true" />
+            android:id="@+id/image"
+            android:layout_width="183dp"
+            android:layout_height="197dp"
+            android:src="@drawable/cam" />
 
         <Button
-            android:id="@+id/button_camera"
+
+            android:id="@+id/camera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
             android:layout_centerHorizontal="true"
-            android:text="Share This Text" />
+            android:text="@string/camera"/>
+        <Button
+            android:id="@+id/galeria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/camera"
+            android:layout_centerHorizontal="true"
+            android:text="@string/galeria"/>
+
 
     </RelativeLayout>
 
