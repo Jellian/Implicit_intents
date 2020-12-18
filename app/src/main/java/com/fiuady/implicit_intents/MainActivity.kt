@@ -30,12 +30,12 @@ class MainActivity : AppCompatActivity() {
         sharetext= findViewById(R.id.text_share);
         opencameraOnclick()
 
-        val intent = intent
-        val uri = intent.data
-        if (uri != null) {
-            val uri_string = "URI: $uri"
-            sharetext.setText(uri_string);
-        }
+//        val intent = intent
+//        val uri = intent.data
+//        if (uri != null) {
+//            val uri_string = "URI: $uri"
+//            sharetext.setText(uri_string);
+//        }
 
 
     }
